@@ -1,1 +1,3 @@
-document.getElementById('demostracion').innerHTML= 'Este texto fue generado por JS';
+function mostrar() {
+    document.getElementById('seleccionable').innerHTML= Date()
+}
