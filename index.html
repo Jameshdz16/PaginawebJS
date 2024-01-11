@@ -15,27 +15,27 @@
     <div class="calculadora">
         <input type="text" id="pantalla" readonly>
         <br>
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="+">
+        <input type="button" value="1" onclick="agegar('1')">
+        <input type="button" value="2" onclick="agegar('2')">
+        <input type="button" value="3" onclick="agegar('3')">
+        <input type="button" value="+" onclick="agegar('+')">
         <br>
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="-">
+        <input type="button" value="4" onclick="agegar('4')">
+        <input type="button" value="5" onclick="agegar('5')">
+        <input type="button" value="6" onclick="agegar('6')">
+        <input type="button" value="-" onclick="agegar('-')">
         <br>
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" value="*">
+        <input type="button" value="7" onclick="agegar('7')">
+        <input type="button" value="8" onclick="agegar('8')">
+        <input type="button" value="9" onclick="agegar('9')">
+        <input type="button" value="*" onclick="agegar('*')">
         <br>
-        <input type="button" value="0">
-        <input type="button" value=".">
-        <input type="button" value="/">
-        <input type="button" value="=">
+        <input type="button" value="0" onclick="agegar('0')">
+        <input type="button" value="." onclick="agegar('.')">
+        <input type="button" value="/" onclick="agegar('/')">
+        <input type="button" value="=" onclick="calcular('')">
         <br>
-        <input type="button" value="C">
+        <input type="button" value="C" onclick="borrar('')">
     </div>
 
     <script src="script.js"></script>
